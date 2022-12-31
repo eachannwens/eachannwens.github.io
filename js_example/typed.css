@@ -1,0 +1,35 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+
+body {
+    background: white;
+}
+
+#auto-type-text  {
+    color:#53AEFC;
+    font-family:Quicksand;
+    font-size:5em;
+    text-align:left;
+    min-height: 100px;
+    padding: 50px;
+    padding-top:60px;
+}
+
+.typed-cursor {
+    display:none;
+}
+
+.text-container {
+    /*   height:150px; */
+    /*   width:800px; */
+    display:block;
+    position:relative;
+    color:#333;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    background-color:white;
+}
+
