@@ -1,8 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function(){
     Typed.new('.element', {
-        strings: [" Hello.", " My name is Jordan.", " Nice to meet you."],
-        typeSpeed: 0
+        strings: [" Hello.", " My name is Eachann.", "I'm a Software Engineer.", " Nice to meet you."]
     });
 });
 
@@ -479,13 +478,13 @@ document.addEventListener('DOMContentLoaded', function(){
         // shuffle the strings
         shuffle: false,
         // time before backspacing
-        backDelay: 500,
+        backDelay: 1000,
         // Fade out instead of backspace
         fadeOut: false,
         fadeOutClass: 'typed-fade-out',
         fadeOutDelay: 500, // milliseconds
         // loop
-        loop: false,
+        loop: true,
         // false = infinite
         loopCount: false,
         // show cursor
